@@ -1,0 +1,277 @@
+[Sun Sep 25 16:37:28.373024 2022] [mpm_winnt:notice] [pid 6848:tid 444] AH00455: Apache/2.4.54 (Win64) configured -- resuming normal operations
+[Sun Sep 25 16:37:28.374021 2022] [mpm_winnt:notice] [pid 6848:tid 444] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Sun Sep 25 16:37:28.374021 2022] [core:notice] [pid 6848:tid 444] AH00094: Command line: 'C:\\apache\\bin\\httpd.exe -d C:/apache'
+[Sun Sep 25 16:37:28.380011 2022] [mpm_winnt:notice] [pid 6848:tid 444] AH00418: Parent: Created child process 16980
+Apache server interrupted...
+022] [mpm_winnt:notice] [pid 16980:tid 444] AH00354: Child: Starting 64 worker threads.
+[Sun Sep 25 16:40:03.525070 2022] [mpm_winnt:notice] [pid 6848:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Sep 25 16:40:05.568258 2022] [mpm_winnt:notice] [pid 16980:tid 444] AH00364: Child: All worker threads have exited.
+[Sun Sep 25 16:40:05.611625 2022] [mpm_winnt:notice] [pid 6848:tid 444] AH00430: Parent: Child process 16980 exited successfully.
+[Sun Sep 25 16:43:44.249922 2022] [mpm_winnt:notice] [pid 12284:tid 444] AH00455: Apache/2.4.54 (Win64) configured -- resuming normal operations
+[Sun Sep 25 16:43:44.253374 2022] [mpm_winnt:notice] [pid 12284:tid 444] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Sun Sep 25 16:43:44.253374 2022] [core:notice] [pid 12284:tid 444] AH00094: Command line: 'C:\\apache\\bin\\httpd.exe -d C:/apache'
+[Sun Sep 25 16:43:44.259774 2022] [mpm_winnt:notice] [pid 12284:tid 444] AH00418: Parent: Created child process 10744
+[Sun Sep 25 16:43:44.630716 2022] [mpm_winnt:notice] [pid 10744:tid 472] AH00354: Child: Starting 64 worker threads.
+[Sun Sep 25 17:13:13.971995 2022] [mpm_winnt:notice] [pid 12284:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Sep 25 17:13:16.015886 2022] [mpm_winnt:notice] [pid 10744:tid 472] AH00364: Child: All worker threads have exited.
+[Sun Sep 25 17:13:16.108375 2022] [mpm_winnt:notice] [pid 12284:tid 444] AH00430: Parent: Child process 10744 exited successfully.
+[Sun Sep 25 17:27:49.704343 2022] [mpm_winnt:notice] [pid 13200:tid 420] AH00455: Apache/2.4.54 (Win64) configured -- resuming normal operations
+[Sun Sep 25 17:27:49.704343 2022] [mpm_winnt:notice] [pid 13200:tid 420] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Sun Sep 25 17:27:49.704343 2022] [core:notice] [pid 13200:tid 420] AH00094: Command line: 'C:\\apache\\bin\\httpd.exe -d C:/apache'
+[Sun Sep 25 17:27:49.710125 2022] [mpm_winnt:notice] [pid 13200:tid 420] AH00418: Parent: Created child process 14356
+[Sun Sep 25 17:27:50.050630 2022] [mpm_winnt:notice] [pid 14356:tid 456] AH00354: Child: Starting 64 worker threads.
+[Sun Sep 25 17:30:21.916539 2022] [mpm_winnt:notice] [pid 13200:tid 420] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Sep 25 17:30:23.949117 2022] [mpm_winnt:notice] [pid 14356:tid 456] AH00364: Child: All worker threads have exited.
+[Sun Sep 25 17:30:24.014143 2022] [mpm_winnt:notice] [pid 13200:tid 420] AH00430: Parent: Child process 14356 exited successfully.
+[Sun Sep 25 17:36:50.015466 2022] [mpm_winnt:notice] [pid 16720:tid 432] AH00455: Apache/2.4.54 (Win64) PHP/8.1.10 configured -- resuming normal operations
+[Sun Sep 25 17:36:50.015466 2022] [mpm_winnt:notice] [pid 16720:tid 432] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Sun Sep 25 17:36:50.015466 2022] [core:notice] [pid 16720:tid 432] AH00094: Command line: 'C:\\apache\\bin\\httpd.exe -d C:/apache'
+[Sun Sep 25 17:36:50.023322 2022] [mpm_winnt:notice] [pid 16720:tid 432] AH00418: Parent: Created child process 10448
+[Sun Sep 25 17:36:50.438316 2022] [mpm_winnt:notice] [pid 10448:tid 444] AH00354: Child: Starting 64 worker threads.
+[Sun Sep 25 17:58:18.801492 2022] [php:error] [pid 10448:tid 1136] [client ::1:54937] script 'C:/apache/htdocs/index.php' not found or unable to stat
+[Sun Sep 25 18:02:01.113093 2022] [php:error] [pid 10448:tid 1144] [client ::1:55055] script 'C:/apache/htdocs/index.php' not found or unable to stat
+[Sun Sep 25 18:21:30.751933 2022] [php:error] [pid 10448:tid 1136] [client ::1:55574] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\apache\\htdocs\\mytest.php on line 5
+[Sun Sep 25 18:22:11.292577 2022] [php:error] [pid 10448:tid 1144] [client ::1:55575] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\apache\\htdocs\\mytest.php on line 5
+[Sun Sep 25 18:22:49.314539 2022] [php:error] [pid 10448:tid 1136] [client ::1:55578] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in C:\\apache\\htdocs\\mytest.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\apache\\htdocs\\mytest.php on line 10
+[Sun Sep 25 18:29:55.233732 2022] [php:error] [pid 10448:tid 1144] [client ::1:53987] PHP Fatal error:  Uncaught Error: Class "mysqli_connect" not found in C:\\apache\\htdocs\\mytest.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\apache\\htdocs\\mytest.php on line 10
+[Sun Sep 25 18:38:41.899719 2022] [php:error] [pid 10448:tid 1136] [client ::1:54124] PHP Fatal error:  Uncaught Error: Class "mysqli_connect" not found in C:\\apache\\htdocs\\mytest.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\apache\\htdocs\\mytest.php on line 10
+[Sun Sep 25 18:38:45.274535 2022] [php:error] [pid 10448:tid 1136] [client ::1:54124] PHP Fatal error:  Uncaught Error: Class "mysqli_connect" not found in C:\\apache\\htdocs\\mytest.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\apache\\htdocs\\mytest.php on line 10
+[Sun Sep 25 18:38:58.904180 2022] [php:error] [pid 10448:tid 1144] [client ::1:54125] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in C:\\apache\\htdocs\\mytest.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\apache\\htdocs\\mytest.php on line 10
+[Sun Sep 25 18:40:40.504503 2022] [php:error] [pid 10448:tid 1136] [client ::1:54191] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in C:\\apache\\htdocs\\mytest.php:7\nStack trace:\n#0 {main}\n  thrown in C:\\apache\\htdocs\\mytest.php on line 7
+[Sun Sep 25 19:04:40.685579 2022] [php:error] [pid 10448:tid 1144] [client ::1:54791] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\\apache\\htdocs\\mytest.php on line 4
+[Sun Sep 25 19:05:00.801147 2022] [php:error] [pid 10448:tid 1136] [client ::1:54792] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in C:\\apache\\htdocs\\mytest.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\apache\\htdocs\\mytest.php on line 10
+[Sun Sep 25 19:30:40.625098 2022] [php:error] [pid 10448:tid 1144] [client ::1:55151] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in C:\\apache\\htdocs\\mytest.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\apache\\htdocs\\mytest.php on line 10
+[Sun Sep 25 19:38:59.632990 2022] [php:error] [pid 10448:tid 1136] [client ::1:63322] PHP Fatal error:  Uncaught Error: Class "mysqli" not found in C:\\apache\\htdocs\\mytest.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\apache\\htdocs\\mytest.php on line 10
+[Sun Sep 25 19:47:11.177918 2022] [mpm_winnt:notice] [pid 16720:tid 432] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Sep 25 19:47:13.200464 2022] [mpm_winnt:notice] [pid 10448:tid 444] AH00364: Child: All worker threads have exited.
+[Sun Sep 25 19:47:13.285277 2022] [mpm_winnt:notice] [pid 16720:tid 432] AH00430: Parent: Child process 10448 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Sun Sep 25 19:47:20.329080 2022] [mpm_winnt:notice] [pid 15256:tid 420] AH00455: Apache/2.4.54 (Win64) PHP/8.1.10 configured -- resuming normal operations
+[Sun Sep 25 19:47:20.329080 2022] [mpm_winnt:notice] [pid 15256:tid 420] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Sun Sep 25 19:47:20.329080 2022] [core:notice] [pid 15256:tid 420] AH00094: Command line: 'C:\\apache\\bin\\httpd.exe -d C:/apache'
+[Sun Sep 25 19:47:20.334736 2022] [mpm_winnt:notice] [pid 15256:tid 420] AH00418: Parent: Created child process 12284
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Sun Sep 25 19:47:20.801743 2022] [mpm_winnt:notice] [pid 12284:tid 436] AH00354: Child: Starting 64 worker threads.
+[Sun Sep 25 19:47:46.948078 2022] [php:error] [pid 12284:tid 1176] [client ::1:63402] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\\apache\\htdocs\\mytest.php:10\nStack trace:\n#0 C:\\apache\\htdocs\\mytest.php(10): mysqli->__construct('localhost', 'username', 'password')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\mytest.php on line 10
+[Sun Sep 25 19:48:47.501174 2022] [php:error] [pid 12284:tid 1172] [client ::1:63407] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\\apache\\htdocs\\mytest.php:10\nStack trace:\n#0 C:\\apache\\htdocs\\mytest.php(10): mysqli->__construct('localhost', 'root', 'Password')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\mytest.php on line 10
+[Sun Sep 25 20:15:53.166274 2022] [php:error] [pid 12284:tid 1172] [client ::1:61894] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in C:\\apache\\htdocs\\mytest.php:27\nStack trace:\n#0 C:\\apache\\htdocs\\mytest.php(27): mysqli_query(Object(mysqli), 'CREATE TABLE My...')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\mytest.php on line 27
+[Tue Sep 27 10:06:46.616764 2022] [php:error] [pid 12284:tid 680] [client ::1:51477] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in C:\\apache\\htdocs\\mytest.php:27\nStack trace:\n#0 C:\\apache\\htdocs\\mytest.php(27): mysqli_query(Object(mysqli), 'CREATE TABLE My...')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\mytest.php on line 27
+[Wed Sep 28 13:14:43.695450 2022] [mpm_winnt:notice] [pid 15256:tid 420] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Sep 28 13:14:45.721874 2022] [mpm_winnt:notice] [pid 12284:tid 436] AH00364: Child: All worker threads have exited.
+[Wed Sep 28 13:14:45.737518 2022] [mpm_winnt:notice] [pid 15256:tid 420] AH00430: Parent: Child process 12284 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Wed Sep 28 13:15:17.580448 2022] [mpm_winnt:notice] [pid 4780:tid 388] AH00455: Apache/2.4.54 (Win64) PHP/8.1.10 configured -- resuming normal operations
+[Wed Sep 28 13:15:17.580448 2022] [mpm_winnt:notice] [pid 4780:tid 388] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Wed Sep 28 13:15:17.580448 2022] [core:notice] [pid 4780:tid 388] AH00094: Command line: 'C:\\apache\\bin\\httpd.exe -d C:/apache'
+[Wed Sep 28 13:15:17.591770 2022] [mpm_winnt:notice] [pid 4780:tid 388] AH00418: Parent: Created child process 4716
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Wed Sep 28 13:15:18.538492 2022] [mpm_winnt:notice] [pid 4716:tid 412] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 04 19:55:48.044453 2022] [mpm_winnt:notice] [pid 4780:tid 388] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 04 19:55:50.127745 2022] [mpm_winnt:notice] [pid 4716:tid 412] AH00364: Child: All worker threads have exited.
+[Tue Oct 04 19:55:50.190187 2022] [mpm_winnt:notice] [pid 4780:tid 388] AH00430: Parent: Child process 4716 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Oct 04 19:56:24.839356 2022] [mpm_winnt:notice] [pid 4552:tid 388] AH00455: Apache/2.4.54 (Win64) PHP/8.1.10 configured -- resuming normal operations
+[Tue Oct 04 19:56:24.839356 2022] [mpm_winnt:notice] [pid 4552:tid 388] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Oct 04 19:56:24.839356 2022] [core:notice] [pid 4552:tid 388] AH00094: Command line: 'C:\\apache\\bin\\httpd.exe -d C:/apache'
+[Tue Oct 04 19:56:24.845904 2022] [mpm_winnt:notice] [pid 4552:tid 388] AH00418: Parent: Created child process 7248
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Oct 04 19:56:25.599399 2022] [mpm_winnt:notice] [pid 7248:tid 452] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 04 19:59:33.018134 2022] [mpm_winnt:notice] [pid 4552:tid 388] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 04 19:59:35.034969 2022] [mpm_winnt:notice] [pid 7248:tid 452] AH00364: Child: All worker threads have exited.
+[Tue Oct 04 19:59:35.050602 2022] [mpm_winnt:notice] [pid 4552:tid 388] AH00430: Parent: Child process 7248 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Oct 04 20:00:09.520940 2022] [mpm_winnt:notice] [pid 4896:tid 392] AH00455: Apache/2.4.54 (Win64) PHP/8.1.10 configured -- resuming normal operations
+[Tue Oct 04 20:00:09.520940 2022] [mpm_winnt:notice] [pid 4896:tid 392] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Oct 04 20:00:09.520940 2022] [core:notice] [pid 4896:tid 392] AH00094: Command line: 'C:\\apache\\bin\\httpd.exe -d C:/apache'
+[Tue Oct 04 20:00:09.525765 2022] [mpm_winnt:notice] [pid 4896:tid 392] AH00418: Parent: Created child process 7640
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Oct 04 20:00:10.882364 2022] [mpm_winnt:notice] [pid 7640:tid 404] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 04 20:26:26.380249 2022] [mpm_winnt:notice] [pid 4896:tid 392] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 04 20:26:28.395681 2022] [mpm_winnt:notice] [pid 7640:tid 404] AH00364: Child: All worker threads have exited.
+[Tue Oct 04 20:26:28.411263 2022] [mpm_winnt:notice] [pid 4896:tid 392] AH00430: Parent: Child process 7640 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Oct 04 20:27:01.470533 2022] [mpm_winnt:notice] [pid 4228:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.10 configured -- resuming normal operations
+[Tue Oct 04 20:27:01.470533 2022] [mpm_winnt:notice] [pid 4228:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Oct 04 20:27:01.470533 2022] [core:notice] [pid 4228:tid 384] AH00094: Command line: 'C:\\apache\\bin\\httpd.exe -d C:/apache'
+[Tue Oct 04 20:27:01.472575 2022] [mpm_winnt:notice] [pid 4228:tid 384] AH00418: Parent: Created child process 7392
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Oct 04 20:27:02.211264 2022] [mpm_winnt:notice] [pid 7392:tid 404] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 07 08:30:38.315853 2022] [mpm_winnt:notice] [pid 4228:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 07 08:30:40.353427 2022] [mpm_winnt:notice] [pid 7392:tid 404] AH00364: Child: All worker threads have exited.
+[Fri Oct 07 08:30:40.384676 2022] [mpm_winnt:notice] [pid 4228:tid 384] AH00430: Parent: Child process 7392 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Fri Oct 07 08:31:19.974449 2022] [mpm_winnt:notice] [pid 5316:tid 140] AH00455: Apache/2.4.54 (Win64) PHP/8.1.10 configured -- resuming normal operations
+[Fri Oct 07 08:31:19.974449 2022] [mpm_winnt:notice] [pid 5316:tid 140] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Fri Oct 07 08:31:19.974449 2022] [core:notice] [pid 5316:tid 140] AH00094: Command line: 'C:\\apache\\bin\\httpd.exe -d C:/apache'
+[Fri Oct 07 08:31:19.978901 2022] [mpm_winnt:notice] [pid 5316:tid 140] AH00418: Parent: Created child process 7780
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Fri Oct 07 08:31:21.508679 2022] [mpm_winnt:notice] [pid 7780:tid 400] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 25 10:48:50.912557 2022] [core:warn] [pid 4952:tid 384] AH00098: pid file C:/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Oct 25 10:48:51.044450 2022] [mpm_winnt:notice] [pid 4952:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.10 configured -- resuming normal operations
+[Tue Oct 25 10:48:51.044450 2022] [mpm_winnt:notice] [pid 4952:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Oct 25 10:48:51.044450 2022] [core:notice] [pid 4952:tid 384] AH00094: Command line: 'C:\\apache\\bin\\httpd.exe -d C:/apache'
+[Tue Oct 25 10:48:51.048778 2022] [mpm_winnt:notice] [pid 4952:tid 384] AH00418: Parent: Created child process 7384
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Oct 25 10:48:52.040588 2022] [mpm_winnt:notice] [pid 7384:tid 400] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 25 10:49:11.648033 2022] [mpm_winnt:notice] [pid 4952:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 25 10:49:13.663769 2022] [mpm_winnt:notice] [pid 7384:tid 400] AH00364: Child: All worker threads have exited.
+[Tue Oct 25 10:49:13.679563 2022] [mpm_winnt:notice] [pid 4952:tid 384] AH00430: Parent: Child process 7384 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Oct 25 10:49:48.064986 2022] [mpm_winnt:notice] [pid 5328:tid 428] AH00455: Apache/2.4.54 (Win64) PHP/8.1.10 configured -- resuming normal operations
+[Tue Oct 25 10:49:48.064986 2022] [mpm_winnt:notice] [pid 5328:tid 428] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Oct 25 10:49:48.064986 2022] [core:notice] [pid 5328:tid 428] AH00094: Command line: 'C:\\apache\\bin\\httpd.exe -d C:/apache'
+[Tue Oct 25 10:49:48.070418 2022] [mpm_winnt:notice] [pid 5328:tid 428] AH00418: Parent: Created child process 7660
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Oct 25 10:49:48.733215 2022] [mpm_winnt:notice] [pid 7660:tid 400] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 02 10:25:55.182865 2022] [mpm_winnt:notice] [pid 5328:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Nov 02 10:25:57.241548 2022] [mpm_winnt:notice] [pid 7660:tid 400] AH00364: Child: All worker threads have exited.
+[Wed Nov 02 10:25:57.272852 2022] [mpm_winnt:notice] [pid 5328:tid 428] AH00430: Parent: Child process 7660 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Wed Nov 02 10:27:24.552345 2022] [mpm_winnt:notice] [pid 4036:tid 392] AH00455: Apache/2.4.54 (Win64) PHP/8.1.10 configured -- resuming normal operations
+[Wed Nov 02 10:27:24.552862 2022] [mpm_winnt:notice] [pid 4036:tid 392] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Wed Nov 02 10:27:24.552862 2022] [core:notice] [pid 4036:tid 392] AH00094: Command line: 'C:\\apache\\bin\\httpd.exe -d C:/apache'
+[Wed Nov 02 10:27:24.556645 2022] [mpm_winnt:notice] [pid 4036:tid 392] AH00418: Parent: Created child process 7664
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Wed Nov 02 10:27:25.677694 2022] [mpm_winnt:notice] [pid 7664:tid 448] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 18 19:27:35.240975 2022] [php:error] [pid 7664:tid 656] [client ::1:64630] script 'C:/apache/htdocs/example.php' not found or unable to stat
+[Fri Nov 18 19:27:51.648273 2022] [php:error] [pid 7664:tid 648] [client ::1:64631] script 'C:/apache/htdocs/demo.php' not found or unable to stat
+[Fri Nov 18 19:28:30.709716 2022] [php:error] [pid 7664:tid 656] [client ::1:64636] script 'C:/apache/htdocs/demoFile.php' not found or unable to stat
+[Fri Nov 18 19:28:36.367521 2022] [php:error] [pid 7664:tid 648] [client ::1:64642] script 'C:/apache/htdocs/demoFile.php' not found or unable to stat
+[Fri Nov 18 19:46:37.110223 2022] [php:error] [pid 7664:tid 656] [client ::1:49960] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'username'@'localhost' (using password: YES) in C:\\apache\\htdocs\\demoFile.php:16\nStack trace:\n#0 C:\\apache\\htdocs\\demoFile.php(16): mysqli->__construct('localhost', 'username', 'password')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\demoFile.php on line 16
+[Fri Nov 18 20:18:47.382349 2022] [php:warn] [pid 7664:tid 656] [client ::1:51467] PHP Warning:  Undefined array key "email" in C:\\apache\\htdocs\\welcome.php on line 5, referer: http://localhost/demoFile.php
+[Fri Nov 18 20:38:16.386563 2022] [php:warn] [pid 7664:tid 648] [client ::1:51942] PHP Warning:  Undefined array key "email" in C:\\apache\\htdocs\\welcome.php on line 5, referer: http://localhost/demoFile.php
+[Fri Nov 18 20:52:38.620102 2022] [php:error] [pid 7664:tid 656] [client ::1:52710] PHP Parse error:  syntax error, unexpected variable "$address" in C:\\apache\\htdocs\\welcome.php on line 6, referer: http://localhost/demoFile.php
+[Fri Nov 18 20:53:36.936330 2022] [php:error] [pid 7664:tid 648] [client ::1:52711] PHP Parse error:  syntax error, unexpected variable "$address" in C:\\apache\\htdocs\\welcome.php on line 6, referer: http://localhost/demoFile.php
+[Fri Nov 18 20:53:44.524775 2022] [php:error] [pid 7664:tid 656] [client ::1:52724] PHP Parse error:  syntax error, unexpected variable "$address" in C:\\apache\\htdocs\\welcome.php on line 6, referer: http://localhost/demoFile.php
+[Fri Nov 18 20:55:15.498110 2022] [php:error] [pid 7664:tid 648] [client ::1:52729] PHP Parse error:  syntax error, unexpected variable "$conn" in C:\\apache\\htdocs\\welcome.php on line 13, referer: http://localhost/demoFile.php
+[Fri Nov 18 20:58:52.349310 2022] [php:warn] [pid 7664:tid 656] [client ::1:52996] PHP Warning:  Undefined array key "address" in C:\\apache\\htdocs\\welcome.php on line 6, referer: http://localhost/demoFile.php
+[Fri Nov 18 20:58:52.352227 2022] [php:error] [pid 7664:tid 656] [client ::1:52996] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2 in C:\\apache\\htdocs\\welcome.php:24\nStack trace:\n#0 C:\\apache\\htdocs\\welcome.php(24): mysqli->query('INSERT INTO cus...')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\welcome.php on line 24, referer: http://localhost/demoFile.php
+[Fri Nov 18 21:03:03.001054 2022] [php:warn] [pid 7664:tid 648] [client ::1:53132] PHP Warning:  Undefined array key "address" in C:\\apache\\htdocs\\welcome.php on line 6, referer: http://localhost/demoFile.php
+[Fri Nov 18 21:03:03.016013 2022] [php:error] [pid 7664:tid 648] [client ::1:53132] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2 in C:\\apache\\htdocs\\welcome.php:24\nStack trace:\n#0 C:\\apache\\htdocs\\welcome.php(24): mysqli->query('INSERT INTO cus...')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\welcome.php on line 24, referer: http://localhost/demoFile.php
+[Fri Nov 18 21:03:09.294961 2022] [php:warn] [pid 7664:tid 656] [client ::1:53133] PHP Warning:  Undefined array key "address" in C:\\apache\\htdocs\\welcome.php on line 6, referer: http://localhost/demoFile.php
+[Fri Nov 18 21:03:09.317980 2022] [php:error] [pid 7664:tid 656] [client ::1:53133] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2 in C:\\apache\\htdocs\\welcome.php:24\nStack trace:\n#0 C:\\apache\\htdocs\\welcome.php(24): mysqli->query('INSERT INTO cus...')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\welcome.php on line 24, referer: http://localhost/demoFile.php
+[Fri Nov 18 21:05:44.978729 2022] [php:warn] [pid 7664:tid 648] [client ::1:53199] PHP Warning:  Undefined array key "address" in C:\\apache\\htdocs\\welcome.php on line 6, referer: http://localhost/demoFile.php
+[Fri Nov 18 21:05:45.000471 2022] [php:error] [pid 7664:tid 648] [client ::1:53199] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2 in C:\\apache\\htdocs\\welcome.php:24\nStack trace:\n#0 C:\\apache\\htdocs\\welcome.php(24): mysqli->query('INSERT INTO cus...')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\welcome.php on line 24, referer: http://localhost/demoFile.php
+[Fri Nov 18 21:08:26.095711 2022] [php:warn] [pid 7664:tid 656] [client ::1:53214] PHP Warning:  Undefined array key "address" in C:\\apache\\htdocs\\welcome.php on line 7, referer: http://localhost/demoFile.php
+[Fri Nov 18 21:08:26.114708 2022] [php:error] [pid 7664:tid 656] [client ::1:53214] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2 in C:\\apache\\htdocs\\welcome.php:25\nStack trace:\n#0 C:\\apache\\htdocs\\welcome.php(25): mysqli->query('INSERT INTO cus...')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\welcome.php on line 25, referer: http://localhost/demoFile.php
+[Fri Nov 18 21:09:10.036983 2022] [php:warn] [pid 7664:tid 648] [client ::1:53215] PHP Warning:  Undefined array key "address" in C:\\apache\\htdocs\\welcome.php on line 7, referer: http://localhost/demoFile.php
+[Fri Nov 18 21:09:10.054838 2022] [php:error] [pid 7664:tid 648] [client ::1:53215] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2 in C:\\apache\\htdocs\\welcome.php:25\nStack trace:\n#0 C:\\apache\\htdocs\\welcome.php(25): mysqli->query('INSERT INTO cus...')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\welcome.php on line 25, referer: http://localhost/demoFile.php
+[Fri Nov 18 21:12:49.753614 2022] [php:error] [pid 7664:tid 648] [client ::1:53430] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Henry' in 'field list' in C:\\apache\\htdocs\\welcome.php:25\nStack trace:\n#0 C:\\apache\\htdocs\\welcome.php(25): mysqli->query('INSERT INTO cus...')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\welcome.php on line 25, referer: http://localhost/demoFile.php
+[Fri Nov 18 21:16:16.517231 2022] [php:error] [pid 7664:tid 648] [client ::1:53550] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'john' in 'field list' in C:\\apache\\htdocs\\welcome.php:26\nStack trace:\n#0 C:\\apache\\htdocs\\welcome.php(26): mysqli->query('INSERT INTO cus...')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\welcome.php on line 26, referer: http://localhost/demoFile.php
+[Fri Nov 18 21:31:19.377075 2022] [php:error] [pid 7664:tid 648] [client ::1:54745] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4 in C:\\apache\\htdocs\\welcome.php:24\nStack trace:\n#0 C:\\apache\\htdocs\\welcome.php(24): mysqli_query(Object(mysqli), 'CREATE TABLE my...')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\welcome.php on line 24, referer: http://localhost/demoFile.php
+[Fri Nov 18 21:50:29.392098 2022] [php:error] [pid 7664:tid 648] [client ::1:56187] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'street)' at line 2 in C:\\apache\\htdocs\\welcome.php:44\nStack trace:\n#0 C:\\apache\\htdocs\\welcome.php(44): mysqli->query('INSERT INTO cus...')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\welcome.php on line 44, referer: http://localhost/demoFile.php
+[Fri Nov 18 22:02:01.773468 2022] [php:error] [pid 7664:tid 656] [client ::1:57014] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'street)' at line 2 in C:\\apache\\htdocs\\welcome.php:44\nStack trace:\n#0 C:\\apache\\htdocs\\welcome.php(44): mysqli->query('INSERT INTO myd...')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\welcome.php on line 44, referer: http://localhost/demoFile.php
+[Fri Nov 18 22:02:53.680139 2022] [php:error] [pid 7664:tid 656] [client ::1:57030] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'stre)' at line 2 in C:\\apache\\htdocs\\welcome.php:44\nStack trace:\n#0 C:\\apache\\htdocs\\welcome.php(44): mysqli->query('INSERT INTO myd...')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\welcome.php on line 44, referer: http://localhost/demoFile.php
+[Fri Nov 18 22:03:50.410249 2022] [php:error] [pid 7664:tid 648] [client ::1:57034] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'stre)' at line 2 in C:\\apache\\htdocs\\welcome.php:44\nStack trace:\n#0 C:\\apache\\htdocs\\welcome.php(44): mysqli->query('INSERT INTO myd...')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\welcome.php on line 44, referer: http://localhost/demoFile.php
+[Fri Nov 18 22:03:56.121116 2022] [php:error] [pid 7664:tid 656] [client ::1:57036] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'stre)' at line 2 in C:\\apache\\htdocs\\welcome.php:44\nStack trace:\n#0 C:\\apache\\htdocs\\welcome.php(44): mysqli->query('INSERT INTO myd...')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\welcome.php on line 44, referer: http://localhost/demoFile.php
+[Fri Nov 18 22:04:36.176969 2022] [php:error] [pid 7664:tid 656] [client ::1:57147] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'ja' in 'field list' in C:\\apache\\htdocs\\welcome.php:44\nStack trace:\n#0 C:\\apache\\htdocs\\welcome.php(44): mysqli->query('INSERT INTO myd...')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\welcome.php on line 44, referer: http://localhost/demoFile.php
+[Sat Nov 19 02:57:32.444121 2022] [php:error] [pid 7664:tid 668] [client ::1:57382] PHP Parse error:  syntax error, unexpected identifier "John" in C:\\apache\\htdocs\\welcome.php on line 42, referer: http://localhost/demoFile.php
+[Sat Nov 19 03:02:07.821106 2022] [php:error] [pid 7664:tid 668] [client ::1:57608] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Henry' in 'field list' in C:\\apache\\htdocs\\welcome.php:44\nStack trace:\n#0 C:\\apache\\htdocs\\welcome.php(44): mysqli->query('INSERT INTO myd...')\n#1 {main}\n  thrown in C:\\apache\\htdocs\\welcome.php on line 44, referer: http://localhost/demoFile.php
+[Sat Nov 19 04:34:56.681661 2022] [php:warn] [pid 7664:tid 640] [client ::1:56582] PHP Warning:  Undefined array key "Name" in C:\\apache\\htdocs\\retrieveData.php on line 48, referer: http://localhost/demoFile.php
+[Sat Nov 19 04:34:56.682667 2022] [php:warn] [pid 7664:tid 640] [client ::1:56582] PHP Warning:  Undefined array key "Address" in C:\\apache\\htdocs\\retrieveData.php on line 49, referer: http://localhost/demoFile.php
+[Sat Nov 19 04:34:56.682667 2022] [php:warn] [pid 7664:tid 640] [client ::1:56582] PHP Warning:  Undefined array key "Name" in C:\\apache\\htdocs\\retrieveData.php on line 48, referer: http://localhost/demoFile.php
+[Sat Nov 19 04:34:56.682667 2022] [php:warn] [pid 7664:tid 640] [client ::1:56582] PHP Warning:  Undefined array key "Address" in C:\\apache\\htdocs\\retrieveData.php on line 49, referer: http://localhost/demoFile.php
+[Sat Nov 19 04:34:56.682667 2022] [php:warn] [pid 7664:tid 640] [client ::1:56582] PHP Warning:  Undefined array key "Name" in C:\\apache\\htdocs\\retrieveData.php on line 48, referer: http://localhost/demoFile.php
+[Sat Nov 19 04:34:56.682667 2022] [php:warn] [pid 7664:tid 640] [client ::1:56582] PHP Warning:  Undefined array key "Address" in C:\\apache\\htdocs\\retrieveData.php on line 49, referer: http://localhost/demoFile.php
+[Tue Dec 06 04:23:39.048411 2022] [mpm_winnt:notice] [pid 4036:tid 392] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 06 04:23:41.132825 2022] [mpm_winnt:notice] [pid 7664:tid 448] AH00364: Child: All worker threads have exited.
+[Tue Dec 06 04:23:41.289313 2022] [mpm_winnt:notice] [pid 4036:tid 392] AH00430: Parent: Child process 7664 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Dec 06 04:24:28.806170 2022] [mpm_winnt:notice] [pid 5284:tid 144] AH00455: Apache/2.4.54 (Win64) PHP/8.1.10 configured -- resuming normal operations
+[Tue Dec 06 04:24:28.806170 2022] [mpm_winnt:notice] [pid 5284:tid 144] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Tue Dec 06 04:24:28.806170 2022] [core:notice] [pid 5284:tid 144] AH00094: Command line: 'C:\\apache\\bin\\httpd.exe -d C:/apache'
+[Tue Dec 06 04:24:28.809911 2022] [mpm_winnt:notice] [pid 5284:tid 144] AH00418: Parent: Created child process 7768
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Tue Dec 06 04:24:30.106510 2022] [mpm_winnt:notice] [pid 7768:tid 400] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 07 05:17:50.379944 2022] [php:error] [pid 7768:tid 784] [client ::1:55629] script 'C:/apache/htdocs/index.php' not found or unable to stat
+[Thu Dec 08 05:12:21.785976 2022] [mpm_winnt:notice] [pid 5284:tid 144] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Dec 08 05:12:23.826495 2022] [mpm_winnt:notice] [pid 7768:tid 400] AH00364: Child: All worker threads have exited.
+[Thu Dec 08 05:12:23.858227 2022] [mpm_winnt:notice] [pid 5284:tid 144] AH00430: Parent: Child process 7768 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Thu Dec 08 05:13:01.185198 2022] [mpm_winnt:notice] [pid 5624:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.10 configured -- resuming normal operations
+[Thu Dec 08 05:13:01.185198 2022] [mpm_winnt:notice] [pid 5624:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Thu Dec 08 05:13:01.185198 2022] [core:notice] [pid 5624:tid 384] AH00094: Command line: 'C:\\apache\\bin\\httpd.exe -d C:/apache'
+[Thu Dec 08 05:13:01.188964 2022] [mpm_winnt:notice] [pid 5624:tid 384] AH00418: Parent: Created child process 8372
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Thu Dec 08 05:13:02.305132 2022] [mpm_winnt:notice] [pid 8372:tid 408] AH00354: Child: Starting 64 worker threads.
+[Thu Dec 08 19:21:43.504767 2022] [mpm_winnt:notice] [pid 5624:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Dec 08 19:21:45.551979 2022] [mpm_winnt:notice] [pid 8372:tid 408] AH00364: Child: All worker threads have exited.
+[Thu Dec 08 19:21:45.583268 2022] [mpm_winnt:notice] [pid 5624:tid 384] AH00430: Parent: Child process 8372 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Thu Dec 08 19:22:22.213864 2022] [mpm_winnt:notice] [pid 5344:tid 136] AH00455: Apache/2.4.54 (Win64) PHP/8.1.10 configured -- resuming normal operations
+[Thu Dec 08 19:22:22.213864 2022] [mpm_winnt:notice] [pid 5344:tid 136] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Thu Dec 08 19:22:22.213864 2022] [core:notice] [pid 5344:tid 136] AH00094: Command line: 'C:\\apache\\bin\\httpd.exe -d C:/apache'
+[Thu Dec 08 19:22:22.217728 2022] [mpm_winnt:notice] [pid 5344:tid 136] AH00418: Parent: Created child process 7864
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Thu Dec 08 19:22:23.307736 2022] [mpm_winnt:notice] [pid 7864:tid 400] AH00354: Child: Starting 64 worker threads.
+[Thu Dec 08 20:00:41.364565 2022] [mpm_winnt:notice] [pid 5344:tid 136] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Dec 08 20:00:43.412588 2022] [mpm_winnt:notice] [pid 7864:tid 400] AH00364: Child: All worker threads have exited.
+[Thu Dec 08 20:00:43.428198 2022] [mpm_winnt:notice] [pid 5344:tid 136] AH00430: Parent: Child process 7864 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Thu Dec 08 20:01:17.199191 2022] [mpm_winnt:notice] [pid 4604:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.10 configured -- resuming normal operations
+[Thu Dec 08 20:01:17.199191 2022] [mpm_winnt:notice] [pid 4604:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Thu Dec 08 20:01:17.199191 2022] [core:notice] [pid 4604:tid 384] AH00094: Command line: 'C:\\apache\\bin\\httpd.exe -d C:/apache'
+[Thu Dec 08 20:01:17.203632 2022] [mpm_winnt:notice] [pid 4604:tid 384] AH00418: Parent: Created child process 7580
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Thu Dec 08 20:01:18.817832 2022] [mpm_winnt:notice] [pid 7580:tid 424] AH00354: Child: Starting 64 worker threads.
+[Thu Dec 08 20:14:47.081579 2022] [mpm_winnt:notice] [pid 4604:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Dec 08 20:14:49.127515 2022] [mpm_winnt:notice] [pid 7580:tid 424] AH00364: Child: All worker threads have exited.
+[Thu Dec 08 20:14:49.143072 2022] [mpm_winnt:notice] [pid 4604:tid 384] AH00430: Parent: Child process 7580 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Thu Dec 08 20:15:21.120594 2022] [mpm_winnt:notice] [pid 5292:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.10 configured -- resuming normal operations
+[Thu Dec 08 20:15:21.120594 2022] [mpm_winnt:notice] [pid 5292:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Thu Dec 08 20:15:21.120594 2022] [core:notice] [pid 5292:tid 384] AH00094: Command line: 'C:\\apache\\bin\\httpd.exe -d C:/apache'
+[Thu Dec 08 20:15:21.124358 2022] [mpm_winnt:notice] [pid 5292:tid 384] AH00418: Parent: Created child process 8020
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Thu Dec 08 20:15:22.534021 2022] [mpm_winnt:notice] [pid 8020:tid 412] AH00354: Child: Starting 64 worker threads.
+[Thu Dec 08 21:25:17.194327 2022] [core:warn] [pid 4564:tid 420] AH00098: pid file C:/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Thu Dec 08 21:25:17.289357 2022] [mpm_winnt:notice] [pid 4564:tid 420] AH00455: Apache/2.4.54 (Win64) PHP/8.1.10 configured -- resuming normal operations
+[Thu Dec 08 21:25:17.290359 2022] [mpm_winnt:notice] [pid 4564:tid 420] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Thu Dec 08 21:25:17.290359 2022] [core:notice] [pid 4564:tid 420] AH00094: Command line: 'C:\\apache\\bin\\httpd.exe -d C:/apache'
+[Thu Dec 08 21:25:17.297464 2022] [mpm_winnt:notice] [pid 4564:tid 420] AH00418: Parent: Created child process 8884
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Thu Dec 08 21:25:17.965821 2022] [mpm_winnt:notice] [pid 8884:tid 448] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 09 03:57:26.231537 2022] [mpm_winnt:notice] [pid 4564:tid 420] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 09 03:57:28.292762 2022] [mpm_winnt:notice] [pid 8884:tid 448] AH00364: Child: All worker threads have exited.
+[Fri Dec 09 03:57:28.308364 2022] [mpm_winnt:notice] [pid 4564:tid 420] AH00430: Parent: Child process 8884 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Fri Dec 09 03:58:04.074721 2022] [mpm_winnt:notice] [pid 4944:tid 384] AH00455: Apache/2.4.54 (Win64) PHP/8.1.10 configured -- resuming normal operations
+[Fri Dec 09 03:58:04.074721 2022] [mpm_winnt:notice] [pid 4944:tid 384] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Fri Dec 09 03:58:04.074721 2022] [core:notice] [pid 4944:tid 384] AH00094: Command line: 'C:\\apache\\bin\\httpd.exe -d C:/apache'
+[Fri Dec 09 03:58:04.079549 2022] [mpm_winnt:notice] [pid 4944:tid 384] AH00418: Parent: Created child process 7252
+PHP Warning:  PHP Startup: Unable to load dynamic library '/path/to/extension/mysqli.so' (tried: /path/to/extension/mysqli.so (The specified module could not be found), C:\\php\\ext\\php_/path/to/extension/mysqli.so.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Fri Dec 09 03:58:05.493159 2022] [mpm_winnt:notice] [pid 7252:tid 404] AH00354: Child: Starting 64 worker threads.
